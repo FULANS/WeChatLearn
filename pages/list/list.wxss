@@ -1,0 +1,72 @@
+.contanier{
+    height: 1500rpx;
+    width: 750rpx;
+}
+
+.holderView{
+   display:flex;
+   width: 100%;
+   height: 120rpx;
+   background: #ffffff;
+   border-top: 1px solid #eee;
+   border-bottom: 1px solid #eee;
+   box-shadow: 0 2px 5px #eeeeee;
+   /*background-color: yellow;*/
+
+}
+.left-view{
+  width: 90%;
+  height: 120rpx;
+  /*background-color: red;*/
+}
+.left-top-view{
+    display:flex;
+    width: 100%;
+    height:35%;
+    /*background-color: purple;*/
+    margin-left: 10rpx;
+}
+.nameitem{
+  width: 30%;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.nodeitem{
+  width: 35%;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.timeitem{
+  width: 35%;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}
+.left-bottom-view{
+    /*background-color: pink;*/
+    height:65%;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    line-height: 80rpx;
+    margin-left: 10rpx;
+}
+.specific-text{
+  font-size: 28rpx;
+  color: gdimgray
+
+}
+
+.right-view{
+   width:10%;
+   height: 100%;
+   /*background-color: blue;  */
+}
+.arrow{
+    width:60%;
+    height:30%;
+    position: relative;
+    left:20rpx;
+    top:55rpx;
+}

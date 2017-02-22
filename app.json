@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2A8CE5",
+    "navigationBarTitleText": "流程待办",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "我的待办",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "我的已办",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }
+    ],
+    "position":"top",
+    "selectedColor":"#2A8CE5",
+    "borderStyle": "white"
+  }
+}

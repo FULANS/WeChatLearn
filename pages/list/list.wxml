@@ -1,0 +1,24 @@
+<!--pages/list/list.wxml-->
+<scroll-view scroll-y="true" class="contanier"  bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+
+    <block wx:for="{{wfListArr}}">
+       <view class="holderView">
+           <view class="left-view">
+             <view class="left-top-view">
+                  <view class="nameitem">{{item.name}}</view>
+                  <view class="nodeitem">{{item.node}}</view>
+                  <view class="timeitem">{{item.time}}</view>
+             </view>
+             <view class="left-bottom-view">
+                <text class="specific-text">{{item.content}}</text>
+             </view>
+
+           </view>
+           <view class="right-view">
+             <image class="arrow" src="../../resources/arrow.png"></image>
+           </view>
+       </view>
+    </block>
+
+</scroll-view>
+

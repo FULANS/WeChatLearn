@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="parent">
+
+<view class="search flex-wrp">
+      <view class="search-left flex-item">
+          <image src="../../resources/search.png"></image>
+          <input placeholder="搜索待办" placeholder-class="search-placeholder"/>
+      </view>
+      <view class="search-right flex-item" bindtap="upper">
+          <image src="../../resources/live.png"></image>
+      </view>
+  </view>
+
+
+  <block wx:for="{{items}}">
+     <view id="{{index}}" class="child" bindtap="enterlistview">
+         <view class="wf-image">
+         <image src="../../resources/wf.png" class="slide-image"></image>
+         </view>
+         <view class="wf-bage">{{item.bageNum}}</view>
+         <view class="wf-name">{{item.name}}</view>
+     </view>
+  </block>
+
+</view>
+
